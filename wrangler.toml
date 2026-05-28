@@ -1,0 +1,11 @@
+name = "fungsi-komposisi"
+account_id = "ca1b9122b7bf672a4b2be323acc1c736"
+compatibility_date = "2026-05-28"
+
+# Ganti YOUR_ACCOUNT_ID dengan account ID Cloudflare kamu.
+# Jika kamu ingin deploy ke Cloudflare Pages atau Worker, pastikan project sudah
+# dikonfigurasi sesuai platform yang dipilih.
+
+# Contoh script deploy:
+#   npm install -D wrangler
+#   npx wrangler deploy
