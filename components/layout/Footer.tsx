@@ -33,7 +33,7 @@ export default function Footer() {
           </p>
 
           <p className="text-sm text-gray-400">
-            Dibuat untuk pelajar Indonesia
+            Dibuat oleh Reyyan Nafil Adiarsa, Kelas XI SIJA 1, SMK Negeri 7 Semarang
           </p>
         </div>
 
