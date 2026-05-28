@@ -1,11 +1,9 @@
+# This project deploys as a static Cloudflare Pages site.
+# The correct deploy command is:
+#   npm run deploy
+#
+# If you use `npx wrangler deploy`, it will attempt a Worker deploy and fail
+# because this project is configured as a Next.js static export.
+
 name = "fungsi-komposisi"
-account_id = "ca1b9122b7bf672a4b2be323acc1c736"
-compatibility_date = "2026-05-28"
-
-# Ganti YOUR_ACCOUNT_ID dengan account ID Cloudflare kamu.
-# Jika kamu ingin deploy ke Cloudflare Pages atau Worker, pastikan project sudah
-# dikonfigurasi sesuai platform yang dipilih.
-
-# Contoh script deploy:
-#   npm install -D wrangler
-#   npx wrangler deploy
+pages_build_output_dir = "./out"
